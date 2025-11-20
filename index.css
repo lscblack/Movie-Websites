@@ -83,3 +83,40 @@ nav{
     border-radius: 20px;
     margin: 10px;
 }
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.container{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+    height: 30vh;
+}
+.watch h2{
+    color: #F1C232;
+    font-family: Georgia;
+    margin-left:200px;
+    font-size: 35px;
+}
+.right{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3,1fr);
+}
+.right h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lightgrey;
+    display: flex;
+}
+.copyright{
+    margin: 30px;
+    color: rgb(107, 100, 100);
+    text-align: start;
+}
