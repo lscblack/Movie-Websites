@@ -1,0 +1,136 @@
+*
+{
+     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #F5E8D8;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #2c2320;
+   
+}
+.logo{
+    color: #F1C232;
+    font-family: Georgia;
+}
+.input input{
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid;
+    color: white;
+    max-width:1000px ;
+    border-color: rgb(80, 78, 78);
+}
+.link{
+    display: flex;
+    gap: 20px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+.click{
+    display: flex;
+    gap: 30px;
+}
+.first{
+    background: #F1C232;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.second{
+    background: #F1C232;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.containers{
+    padding: 12px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+.grids{
+    width: 100%;
+    border-radius: 10px ;
+    padding: 20px;
+    background: #2c2320;
+    color: #F5E8D8;
+}
+.grids .img{
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    margin: 10px auto;
+}
+.grids .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main h2{
+    margin-top: 20px;
+    margin-left: 50px;
+    color:#2c2320;
+}
+.third{
+    border: none;
+    padding: 5px 16px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color:#2c2320;
+    cursor: pointer;
+    background-color: #F5E8D8;
+}
+.rate{
+    color: #F1C232;
+}
+footer{
+    background-color: #2c2320;
+    color: white;
+    padding: 5px 10px;
+}
+.container{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+    height: 30vh;
+}
+.watch h2{
+    color: #F1C232;
+    font-family: Georgia;
+    margin-left:200px;
+    font-size: 35px;
+}
+.right{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3,1fr);
+}
+.right h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lightgrey;
+    display: flex;
+}
+.copyright{
+    margin: 30px;
+    color: rgb(107, 100, 100);
+    text-align: start;
+}
