@@ -67,6 +67,7 @@ nav{
     color: whitesmoke;
     max-width: 450px;
     margin: 15px auto ;
+    border-radius: 10px;
 }
 .registration h1{
     text-align: center;
@@ -78,6 +79,10 @@ nav{
     border-radius: 5px;
     border: 1px solid lightgrey;
     margin: 10px auto;
+}
+.registration a{
+    text-decoration: none;
+    color: #F5E8D8;
 }
 .button{
     padding: 10px;
