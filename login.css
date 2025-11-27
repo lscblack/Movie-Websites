@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #F5E8D8;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #2c2320;
+}
+.logo{
+    color: #F1C232;
+    font-family: Georgia;
+}
+.input input{
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid;
+    color: white;
+    max-width:1000px ;
+    border-color: rgb(80, 78, 78);
+}
+.link{
+    display: flex;
+    gap: 20px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+.click{
+    display: flex;
+    gap: 30px;
+}
+.first{
+    background: #F1C232;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.second{
+    background: #F1C232;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.form{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2c2320;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 1px;
+    color: whitesmoke;
+    height: fit-content;
+}
+.form .inputs{
+    margin: 15px auto; 
+    background-color: white;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+}
+.form h2{
+    text-align: center;
+    color: whitesmoke;
+}
+.star{
+    background-color: #F1C232;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.sign{
+    text-decoration: none;
+    color: #F5E8D8;
+}
+footer{
+    background-color:#2c2320;
+    color: white;
+    padding: 5px 10px;
+}
+.container{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+    height: 30vh;
+}
+.watch h2{
+    color: #F1C232;
+    font-family: Georgia;
+    margin-left:200px;
+    font-size: 35px;
+}
+.right{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3,1fr);
+}
+.right h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lightgrey;
+    display: flex;
+}
+.copyright{
+    margin: 30px;
+    color: rgb(107, 100, 100);
+    text-align: start;
+}
