@@ -44,6 +44,9 @@ nav{
     display: flex;
     gap: 30px;
 }
+.click a{
+    text-decoration: none;
+}
 .first{
     background: #F1C232;
     color: white;
