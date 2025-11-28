@@ -61,6 +61,21 @@ nav{
     padding: 10px;
     border: none;
 }
+.type{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 10px;
+    gap: 30px;
+}
+.type a{
+    text-decoration: none;
+    background:#2c2320;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
 .containers{
     padding: 12px;
     margin-left: 50px;
